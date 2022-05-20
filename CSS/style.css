@@ -80,7 +80,6 @@ a:visited {
 #read-less-sec3,
 #read-less-sec4,
 .nav-bar,
-.nav-button,
 .tablet {
     display: none;
 }
@@ -269,8 +268,8 @@ p+p {
 }
 
 #hamburger-switch:checked~.nav-bar,
-    .nav-button,
-    .social-button {
+.nav-button,
+.social-button {
     display: flex;
 }
 
@@ -447,7 +446,7 @@ label {
 #max-height-sec3:checked~#section3-home,
 #max-height-sec4:checked~#section4-home {
     background-color: var(--primary-dark);
-    border-color: var(--secondary-light);
+    border-color: var(--secondary-med);
     grid-template-areas:
         "section-image-frame"
         "section-title"
@@ -544,12 +543,14 @@ nav {
 }
 
 :root {
+    --nav-height: 6vw;
     --primary-dark: #041322;
     --primary-light: #2F4865;
     --primary-med: #13264D;
     --secondary-dark: #00C6B8;
     --secondary-light: #F1F1E6;
     --secondary-med: #B0BDD2;
+    --section-gap: 3vw;
     --scale-up: 1.2;
 
     background-color: var(--primary-dark);
@@ -577,7 +578,7 @@ nav {
 #section2-home,
 #section3-home,
 #section4-home {
-    gap: 3vw;
+    gap: var(--section-gap);
     padding: 3vw;
 }
 
@@ -720,6 +721,7 @@ nav {
 
 .section-title {
     grid-area: section-title;
+    scroll-margin-top: 9vw;
 }
 
 .separating-bar {
@@ -804,6 +806,7 @@ nav {
     nav {
         grid-template-areas: "page-title format nav-bar";
         grid-template-columns: 20% 20% 60%;
+        padding: initial;
     }
 
     .nav-bar {
@@ -907,10 +910,6 @@ nav {
 
     .format {
         font-size: 0.4em;
-    }
-
-    nav {
-        padding: 0.5vw 0;
     }
 
     .nav-bar {
