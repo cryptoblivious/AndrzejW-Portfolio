@@ -650,9 +650,11 @@ nav {
 
 #social-bar {
     background-color: var(--primary-light);
-    display: flex;
-    gap: 1vw;
+    display: grid;
+    gap: 5vw;
     grid-area: social-bar;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
     justify-content: center;
     padding: 3vw 0;
 }
@@ -689,6 +691,10 @@ nav {
     grid-area: section-text;
     overflow: hidden;
     text-align: justify;
+}
+
+.section-projects{
+    width: 100%;
 }
 
 #section1-projects {
@@ -768,10 +774,11 @@ nav {
         display: grid;
         grid-area: footer;
         grid-template-areas: "footer-info social-bar";
-        grid-template-columns: 75% 25%;
+        grid-template-columns: 70% 30%;
     }
 
     .footer-info{
+        border-right: 0.333vw solid var(--secondary-med);
         padding: 0;
     }
 
@@ -796,7 +803,7 @@ nav {
 
     nav {
         grid-template-areas: "page-title format nav-bar";
-        grid-template-columns: 4fr 3fr 8fr;
+        grid-template-columns: 20% 20% 60%;
     }
 
     .nav-bar {
@@ -862,10 +869,7 @@ nav {
     }
 
     #social-bar {
-        display: grid;
         gap: 1vw;
-        grid-template-columns: repeat(3, auto);
-        grid-template-rows: repeat(2, auto);
         padding: 1vw 0;
     }
 
@@ -898,7 +902,7 @@ nav {
 
     footer {
         font-size: 0.75em;
-        grid-template-columns: 75fr 25fr;
+        grid-template-columns: 65% 35%;
     }
 
     .format {
