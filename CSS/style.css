@@ -144,6 +144,7 @@ a:visited {
 .nav-link,
 .return-to-top,
 .secret,
+.section-projects,
 .social-link {
     text-decoration: none;
 }
@@ -493,12 +494,16 @@ nav {
 }
 
 .nav-button {
+    justify-content: center;
     padding: 3vw 0;
+    min-width: max-content;
+    width: 100%;
 }
 
+.nav-button:hover>.nav-link,
 .nav-link:hover {
     color: var(--secondary-dark);
-    transform: translateX(-2vw);
+    transform: translateX(2vw);
 }
 
 .page-title,
@@ -664,10 +669,6 @@ nav {
     height: 14vw;
 }
 
-.icon:hover {
-    fill: var(--secondary-dark);
-}
-
 .section-image,
 .section-image:hover {
     transition: 20s ease;
@@ -728,8 +729,14 @@ nav {
     border-bottom: 0.333vw solid var(--secondary-light);
 }
 
+.social-button:hover>.social-link,
 .social-link:hover {
     transform: translateY(-2vw);
+}
+
+.social-button:hover>.social-link>.icon,
+.social-link:hover {
+    fill: var(--secondary-dark);
 }
 
 .social-link {
@@ -880,6 +887,7 @@ nav {
         height: 100%;
     }
 
+    .social-button:hover>.social-link,
     .social-link:hover {
         transform: translateY(-1vw);
     }
