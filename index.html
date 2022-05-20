@@ -18,9 +18,9 @@
         <input type="checkbox" name="hamburger-switch" id="hamburger-switch">
         <h2 class="page-title"><a class="return-to-top" href="#website-name">Home</a></h2>
         <ul class="format">
-            <li class="cellphone">Cellphone format</li>
-            <li class="tablet">Tablet format</li>
-            <li class="computer">Computer format</li>
+            <li class="cellphone">(Cellphone format)</li>
+            <li class="tablet">(Tablet format)</li>
+            <li class="computer">(Computer format)</li>
         </ul>
         <label class="hamburger-label" for="hamburger-switch"></label>
         <ul class="hamburger">
@@ -39,9 +39,9 @@
                         id="current-page">Home</span></a></li>
             <li class="nav-button separating-bar"><a class="nav-link" href="./about.html">About</a></li>
             <li class="nav-button separating-bar"><a class="nav-link" href="./projects.html">Projects</a></li>
-            <li class="nav-button separating-bar"><a class="nav-link" href="./Files/2022-04-05_EN_Andrzej Wisniowski - Resume.pdf" target="blank">Resume</a></li>
+            <li class="nav-button separating-bar"><a class="nav-link" href="./Files/2022-04-05_EN_Andrzej Wisniowski - Resume.pdf" target="_blank">Resume</a></li>
             <li class="nav-button separating-bar"><a class="nav-link" href="#social-bar">Contact</a></li>
-            <li class="nav-button"><a class="nav-link" href="./about-fr.html">FR</a></li>
+            <li class="nav-button"><a class="nav-link" href="./index-fr.html">FR</a></li>
         </ul>
     </nav>
     <div class="white-space"></div>
@@ -51,16 +51,16 @@
         <input type="checkbox" name="max height-sec4" id="max-height-sec4">
         <input type="checkbox" name="max height-sec2" id="max-height-sec2">
         <section id="section1-home">
-            <a class="section-image-frame" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img
-                    class="section-image" src="./Images/din-djarin-_H-eTPWyAow-unsplash.jpg" alt="Lorem Picsum"></a>
+            <div class="section-image-frame">
+                <img class="section-image" src="./Images/din-djarin-_H-eTPWyAow-unsplash.jpg" alt="Lorem Picsum">
+            </div>
             <h2 class="section-title" id="section1-title">This is the way.</h2>
             <div id="read-less-sec1">
                 <label for="max-height-sec1"><span id="read-less-button-sec1">Read less</span></label>
             </div>
             <div class="section-text">
-                <p>Greetings! My name is Andrzej Wisniowski, and you have just landed in the magnificent world of my own personal portfolio! Here you will learn about all the great things I have accomplished as a programmer and a web developper, as well as uncover a couple of Easter eggs if lady luck will shine upon on you ;)</p>
-                <br>
-                <p>My programming journey started in the fall of 2021, when I chose to embarq on a quest to become the very best that no one ever was. You can read more about me <a href="./about.html" target="_blank">here</a>.</p>
+                <p>Greetings! My name is Andrzej Wisniowski, and you have just landed in the magnificent world of my IT wizard's portfolio. Here you will learn about all the great things I have accomplished as a programmer and a web developper, as well as uncover a couple of <span class="boldened italic easter-egg">Easter Eggs</span> if lady luck will smile upon you ;)</p>
+                <p>My programming journey started in the fall of 2021, when I chose to embarq on a quest to become <a class="secret" href="https://www.youtube.com/watch?v=rg6CiPI6h2g" target="_blank">the very best like no one ever was</a>. You can read more about me <a href="./about.html">here.</a></p>
             </div>
             <div id="read-more-sec1">
                 <label for="max-height-sec1">
@@ -72,18 +72,19 @@
             </div>
         </section>
         <section id="section2-home">
-            <div class="section-image-frame"><img class="section-image" src="./Images/pexels-pixabay-270404.jpg" alt="Lorem Picsum"></div>
-            <h2 class="section-title" id="section2-title">The Website</h2>
+            <div class="section-image-frame">
+                <img class="section-image" src="./Images/pexels-pixabay-270404.jpg" alt="Lorem Picsum">
+            </div>
+            <h2 class="section-title" id="section2-title">The Portfolio.</h2>
             <div id="read-less-sec2">
                 <label for="max-height-sec2">
                     <span id="read-less-button-sec2">Read less</span>
                 </label>
             </div>
             <div class="section-text">
-                <p>This website was fully developped using only HTML and CSS. The knowledge acquired to achieve these results was all gained in the span of a couple of weeks on the school benches. Most of the CSS was factored using descriptive classes to ensure the code was intuitively readable and understandable. Experimentation was made with the use of varying lengths of selector lists and selector properties to determine what was an optimal css arrangement. All the selectors and properties were sorted in alphabetical order and refactored to make sure no two lines of code were duplicating themselves. The HTML and CSS code used to create this portfolio can be found <a class="spoof" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                    target="_blank">here</a>.</p>
+                <p>This portfolio was fully developped as a static website using only HTML and CSS. The knowledge acquired to achieve the results seen here was all gained in the span of a couple of weeks on the school benches. Most of the CSS was factored using descriptive classes and ids to ensure the code was intuitively readable and understandable.</p> 
+                <p>Experimentation was made with the use of varying lengths of selector lists and selector properties to determine what was an optimal CSS arrangement. All the selectors and properties were sorted in alphabetical order and refactored to make sure no two lines of code were duplicating themselves. The HTML and CSS code used to create this portfolio can be found <a href="https://github.com/cryptoblivious/AndrzejW-Portfolio" target="_blank">here.</a></p>
             </div>
-
             <div id="read-more-sec2">
                 <label for="max-height-sec2">
                     <span id="read-more-button-sec2">Read more</span>
@@ -94,44 +95,17 @@
             </div>
         </section>
         <section id="section3-home">
-            <a class="section-image-frame" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img
-                    class="section-image" src="https://picsum.photos/1200/1200?random=3" alt="Lorem Picsum"></a>
-            <h2 class="section-title" id="section3-title">Section 3</h2>
+            <div class="section-image-frame">
+                <img class="section-image" src="./Images/job-g150d5174b_1280.png" alt="Lorem Picsum"></div>
+            <h2 class="section-title" id="section3-title">Resume.</h2>
             <div id="read-less-sec3">
                 <label for="max-height-sec3">
                     <span id="read-less-button-sec3">Read less</span>
                 </label>
             </div>
-            <p class="section-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A beatae doloremque,
-                consequatur accusamus sunt maiores. Nostrum deleniti fuga sunt fugiat cumque, eligendi quae alias
-                debitis doloremque porro voluptatem ipsum commodi quasi, saepe adipisci obcaecati nesciunt unde veniam
-                ratione facere suscipit excepturi possimus ut sed. Commodi eum dicta natus, tenetur est animi expedita
-                eligendi reiciendis fugiat quidem iste. Reiciendis dolor atque sapiente deleniti obcaecati placeat
-                suscipit expedita quaerat consectetur, nostrum tenetur ducimus nam possimus! In autem earum voluptate
-                expedita vel explicabo laborum accusamus ut facere maiores doloremque aperiam enim totam nam labore
-                voluptatibus eum ab illum, consectetur facilis molestiae minima eligendi! Ea, delectus iure amet,
-                assumenda impedit velit rem exercitationem eligendi non vitae iusto quod nobis quae officiis ad aperiam,
-                reprehenderit optio ex molestias quo doloremque quia? Rerum sunt animi vitae aliquam error delectus
-                nesciunt ullam, doloribus consectetur sapiente placeat alias natus nobis aperiam. Pariatur maiores
-                reprehenderit eum deserunt velit numquam harum sequi quam non dicta aliquid, ab dolorem perferendis!
-                Omnis animi expedita reprehenderit odit eligendi debitis at incidunt quia aperiam fugit! Et tempora
-                voluptates magnam error quaerat esse. Quas blanditiis nulla eius in, quo vel possimus id sit odit cumque
-                molestiae, optio officiis omnis quia facilis. Dolores veniam adipisci accusamus unde, distinctio eos
-                iusto consectetur quos incidunt doloribus pariatur culpa maxime inventore ipsam vel, at mollitia facilis
-                voluptatum? Tempore est quos sequi sapiente impedit explicabo delectus perferendis, officia quis,
-                recusandae qui aut culpa ut quo ea! Nulla, doloremque? Mollitia id eaque architecto, illum, sed
-                distinctio eligendi in fugiat hic alias amet provident rem minima iste? Ratione aspernatur repudiandae
-                amet dolor quisquam ad fuga facilis. Dolorem tempore optio nostrum sapiente magni, quibusdam porro ipsum
-                quas dicta tempora. Quas fugiat sunt ex illo corrupti labore. At sint itaque laborum incidunt eum
-                dolores aspernatur quia. Recusandae corporis laudantium velit doloremque vel, ipsa qui optio atque, odit
-                a magni eos exercitationem veniam sunt tempore voluptas sed labore, voluptates corrupti fugit at unde ab
-                laborum? Recusandae corporis autem iusto libero dolore maxime quaerat quidem atque, accusamus molestias
-                alias ipsa vero aspernatur tempora eaque dignissimos officiis possimus repellat odit minima natus
-                similique temporibus! Ex quos sequi ducimus quas exercitationem, ipsum vero, dicta eius voluptatum
-                recusandae, corporis quia doloremque laborum quis hic incidunt consequatur eveniet dolores neque tempore
-                id earum est amet. Non, et! Fuga inventore quasi eligendi provident repudiandae non sed reiciendis sint
-                beatae, atque debitis magnam magni illum obcaecati voluptatibus veniam dolore eveniet soluta possimus
-                aliquid ratione vero. Repudiandae, iste.</p>
+            <div class="section-text">
+                <p>If you would fancy considering me for an intership, contractual or part-time job while I am working on my Computer Science Degree, feel free to view my <a href="./Files/2022-05_EN_Andrzej Wisniowski - CV (Software Dev).pdf" target="blank">resume</a> and <a href="#social-bar">contact me</a>.</p>
+            </div>
             <div id="read-more-sec3">
                 <label for="max-height-sec3">
                     <span id="read-more-button-sec3">Read more</span>
@@ -142,44 +116,18 @@
             </div>
         </section>
         <section id="section4-home">
-            <a class="section-image-frame" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img
-                    class="section-image" src="https://picsum.photos/1200/1200?random=4" alt="Lorem Picsum"></a>
-            <h2 class="section-title" id="section4-title">Section 4</h2>
+            <div class="section-image-frame">
+                <img class="section-image" src="./Images/pexels-francesco-ungaro-96381.jpg" alt="Lorem Picsum">
+            </div>
+            <h2 class="section-title" id="section4-title">The Masterpieces.</h2>
             <div id="read-less-sec4">
                 <label for="max-height-sec4">
                     <span id="read-less-button-sec4">Read less</span>
                 </label>
             </div>
-            <p class="section-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A beatae doloremque,
-                consequatur accusamus sunt maiores. Nostrum deleniti fuga sunt fugiat cumque, eligendi quae alias
-                debitis doloremque porro voluptatem ipsum commodi quasi, saepe adipisci obcaecati nesciunt unde veniam
-                ratione facere suscipit excepturi possimus ut sed. Commodi eum dicta natus, tenetur est animi expedita
-                eligendi reiciendis fugiat quidem iste. Reiciendis dolor atque sapiente deleniti obcaecati placeat
-                suscipit expedita quaerat consectetur, nostrum tenetur ducimus nam possimus! In autem earum voluptate
-                expedita vel explicabo laborum accusamus ut facere maiores doloremque aperiam enim totam nam labore
-                voluptatibus eum ab illum, consectetur facilis molestiae minima eligendi! Ea, delectus iure amet,
-                assumenda impedit velit rem exercitationem eligendi non vitae iusto quod nobis quae officiis ad aperiam,
-                reprehenderit optio ex molestias quo doloremque quia? Rerum sunt animi vitae aliquam error delectus
-                nesciunt ullam, doloribus consectetur sapiente placeat alias natus nobis aperiam. Pariatur maiores
-                reprehenderit eum deserunt velit numquam harum sequi quam non dicta aliquid, ab dolorem perferendis!
-                Omnis animi expedita reprehenderit odit eligendi debitis at incidunt quia aperiam fugit! Et tempora
-                voluptates magnam error quaerat esse. Quas blanditiis nulla eius in, quo vel possimus id sit odit cumque
-                molestiae, optio officiis omnis quia facilis. Dolores veniam adipisci accusamus unde, distinctio eos
-                iusto consectetur quos incidunt doloribus pariatur culpa maxime inventore ipsam vel, at mollitia facilis
-                voluptatum? Tempore est quos sequi sapiente impedit explicabo delectus perferendis, officia quis,
-                recusandae qui aut culpa ut quo ea! Nulla, doloremque? Mollitia id eaque architecto, illum, sed
-                distinctio eligendi in fugiat hic alias amet provident rem minima iste? Ratione aspernatur repudiandae
-                amet dolor quisquam ad fuga facilis. Dolorem tempore optio nostrum sapiente magni, quibusdam porro ipsum
-                quas dicta tempora. Quas fugiat sunt ex illo corrupti labore. At sint itaque laborum incidunt eum
-                dolores aspernatur quia. Recusandae corporis laudantium velit doloremque vel, ipsa qui optio atque, odit
-                a magni eos exercitationem veniam sunt tempore voluptas sed labore, voluptates corrupti fugit at unde ab
-                laborum? Recusandae corporis autem iusto libero dolore maxime quaerat quidem atque, accusamus molestias
-                alias ipsa vero aspernatur tempora eaque dignissimos officiis possimus repellat odit minima natus
-                similique temporibus! Ex quos sequi ducimus quas exercitationem, ipsum vero, dicta eius voluptatum
-                recusandae, corporis quia doloremque laborum quis hic incidunt consequatur eveniet dolores neque tempore
-                id earum est amet. Non, et! Fuga inventore quasi eligendi provident repudiandae non sed reiciendis sint
-                beatae, atque debitis magnam magni illum obcaecati voluptatibus veniam dolore eveniet soluta possimus
-                aliquid ratione vero. Repudiandae, iste.</p>
+            <div class="section-text">
+                <p>Great things have been accomplished in the span of a single school semester. To prove it, you can come see what projects were built during that time period <a href="./projects.html">here</a>.</p>
+            </div>
             <div id="read-more-sec4">
                 <label for="max-height-sec4">
                     <span id="read-more-button-sec4">Read more</span>
@@ -244,7 +192,7 @@
         <ul class="footer-info">
             <li class="author">AndrzejW | Portfolio</li>
             <li class="date">2022</li>
-            <li class="copyright">All rights reserved.</li>
+            <li class="copyright">All rights reserved</li>
         </ul>
     </footer>
 </body>
