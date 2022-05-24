@@ -503,7 +503,7 @@ nav {
 .nav-button:hover>.nav-link,
 .nav-link:hover {
     color: var(--secondary-dark);
-    transform: translateX(2vw);
+    transform: translate(2vw,0);
 }
 
 .page-title,
@@ -813,6 +813,7 @@ nav {
     nav {
         grid-template-areas: "page-title format nav-bar";
         grid-template-columns: 20% 20% 60%;
+        height: 6vw;
         padding: initial;
     }
 
@@ -826,8 +827,9 @@ nav {
         padding: 0 1vw;
     }
 
+    .nav-button:hover>.nav-link,
     .nav-link:hover {
-        transform: translateY(1vw);
+        transform: translate(0,1vw);
     }
 
     .page-title,
