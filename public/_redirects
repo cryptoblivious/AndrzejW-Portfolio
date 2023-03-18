@@ -1,3 +1,3 @@
 # Rewrite rule to proxy requests from tls.andrzejw.com to tls.woodchuckgames.com
 
-/https://tls.andrzejw.com/* https://tubular-souffle-096ee9.netlify.app/:splat 200
+/https://tls.andrzejw.com/* https://tls.woodchuckgames.com/:splat 200
