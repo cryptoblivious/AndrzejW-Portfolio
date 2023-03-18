@@ -1,0 +1,3 @@
+# Rewrite rule to proxy requests from tls.andrzejw.com to tls.woodchuckgames.com
+
+/ https://tls.woodchuckgames.com/:splat 200

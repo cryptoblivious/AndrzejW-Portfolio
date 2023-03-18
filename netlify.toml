@@ -1,7 +1,0 @@
-[[redirects]]
-  from = "/.netlify/functions/*"
-  to = "https://tls.woodchuckgames.com/:splat"
-  status = 200
-  force = true
-  headers = { X-From = "Netlify" }
-  proxy = true
